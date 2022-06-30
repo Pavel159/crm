@@ -1,9 +1,15 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import AppRouter from './components/AppRouter';
+import Header from './components/header/Header';
 
 function App() {
   return (
     <div className='App'>
-      <h1>CRM</h1>
+      <BrowserRouter>
+        <Header />
+        <AppRouter />
+      </BrowserRouter>
     </div>
   );
 }
