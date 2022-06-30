@@ -1,7 +1,13 @@
 import React from 'react';
+import DocumentTitle from 'react-document-title';
 
 const Contacts = () => {
-  return <div>Contacts</div>;
+  return (
+    <div>
+      <DocumentTitle title='Контакты' />
+      Contacts
+    </div>
+  );
 };
 
 export default Contacts;

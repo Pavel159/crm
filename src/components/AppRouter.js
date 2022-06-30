@@ -10,6 +10,7 @@ export default function AppRouter() {
           path={route.path}
           element={route.element}
           exact={route.exact}
+          title={route.title}
         />
       ))}
     </Routes>
