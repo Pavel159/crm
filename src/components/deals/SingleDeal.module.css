@@ -1,16 +1,16 @@
-.lead__container {
+.deal__container {
   width: 100%;
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
 }
 
-.lead__container:hover {
+.deal__container:hover {
   background-color: rgb(189, 234, 245);
   cursor: pointer;
 }
 
-.lead__container p {
+.deal__container p {
   margin-bottom: 0;
   width: 10%;
 }
